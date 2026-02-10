@@ -24,10 +24,6 @@ const Navbar = () => {
     Movies
   </Link>
 
-  <Link to="/#events" className="hover:text-red-600">
-    Events
-  </Link>
-
   {user ? (
     <>
       <Link to="/account" className="hover:text-red-600">
