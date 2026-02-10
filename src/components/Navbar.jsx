@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="bg-white shadow-md px-8 py-4 flex justify-between items-center">
       <Link to="/" className="text-2xl font-bold text-red-600">
-        BookMyShow
+        BookMyEve
       </Link>
 
       <div className="space-x-6">

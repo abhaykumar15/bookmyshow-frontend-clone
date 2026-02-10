@@ -5,7 +5,7 @@ export const movies = [
     price: 250,
     rating: 8.2,
      overview: "A high-octane action thriller featuring Shah Rukh Khan in a dual role.",
-    image: "https://image.tmdb.org/t/p/w500/8EIQAvJjXdbNDMmBtHtgGqbc09P.jpg"
+    image: "https://m.media-amazon.com/images/M/MV5BMGExNGI1NDktOWI2Mi00NDM3LWIxMmQtNTQxYTgzMzI0MTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     id: 2,
@@ -14,56 +14,56 @@ export const movies = [
     rating: 7.9,
      overview: "The story of American scientist J. Robert Oppenheimer and the atomic bomb.",
       overview: "A thief who steals corporate secrets through dream-sharing technology.",
-    image: "https://image.tmdb.org/t/p/w500/vqug0kmY3zT1exUZtFttcXCI4d.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOHA0DTAKNAhDRUKyhxR2U6iokt9boztD3ur53XbnoOGkzBm9C-qckStDmlMnJZvYDFAM&s=10"
   },
   {
     id: 3,
     title: "Animal",
     price: 300,
     rating: 8.4,
-    image: "https://image.tmdb.org/t/p/w500/2e853FDVSIso600RqAMunPxiZjq.jpg"
+    image: "https://m.media-amazon.com/images/M/MV5BZThmNDg1NjUtNWJhMC00YjA3LWJiMjItNmM4ZDQ5ZGZiN2Y2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     id: 4,
     title: "Oppenheimer",
     price: 350,
     rating: 8.9,
-    image: "https://image.tmdb.org/t/p/w500/8GxvJLEl7r4JOVM3hLJtqN4c6kF.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FFJNBaIXvhEwqXXw40rYYDci8jPlYxWfy9082flliYoZ-SqqZjy0az-G5rIWuSJp2pn7xQ&s=10"
   },
   {
     id: 5,
     title: "Barbie",
     price: 270,
     rating: 7.5,
-    image: "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg"
+    image: "https://miro.medium.com/0*wjnDWOPdGU3TLXep"
   },
   {
     id: 6,
     title: "The Batman",
     price: 290,
     rating: 8.1,
-    image: "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+    image: "https://the1a.org/wp-content/uploads/sites/4/2022/03/rev-1-TBM-56056JOrv4_High_Res_JPEG-1500x1000.jpeg"
   },
   {
     id: 7,
     title: "Avengers: Endgame",
     price: 320,
     rating: 8.4,
-    image: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjFVBFPLjkNazE_gHmc3KRNlb1mzjWcY-kUeG1pbWEVLi_al6q61qO-UmRbb5dCStqdKZCkOpiIIwWJGrxWOOnrHQ5lz1b4C_tBrxpA&s=10"
   },
   {
     id: 8,
     title: "Inception",
     price: 260,
     rating: 8.8,
-    image: "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRyuWmayVBvqjd1MxTKpRgauq2cCtUzb7Q9QvaFTkAuxAU_EYMoCE3wBuJeftxIzf0grreIw&s=10"
   },
   {
     id: 9,
     title: "Interstellar",
     price: 300,
     rating: 8.7,
-    image: "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg"
+    image: "https://i.pinimg.com/736x/95/8b/a3/958ba3b3c6b8f9c7d4379a63fc329c13.jpg"
   },
   {
     id: 10,
@@ -77,14 +77,14 @@ export const movies = [
     title: "RRR",
     price: 280,
     rating: 8.0,
-    image: "https://image.tmdb.org/t/p/w500/ljHwq8AjK3M1Gagk0GqU7fSDO6K.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_gA25hvAzvrTHQaotqRuOVJqQbWScm5Ig5dF4ctHmnF5bUjPpUFqKTHZRqrm8CwG-98ILbA&s=10"
   },
   {
     id: 12,
     title: "KGF Chapter 2",
     price: 290,
     rating: 7.8,
-    image: "https://image.tmdb.org/t/p/w500/ltj3wC2kPd7vtdJ6fZpQeJbH9Dh.jpg"
+    image: "https://static.toiimg.com/thumb/imgsize-15960,msid-90518208,width-400,resizemode-4/90518208.jpg"
   },
   {
     id: 13,

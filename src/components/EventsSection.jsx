@@ -6,14 +6,14 @@ const events = [
         title: "Arijit Singh Live",
         type: "Concert",
         price: 1500,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-PoBWrge7Hzky1pR4J_hCNpewi9IYfH19Ng&s"
+        image: "https://media.assettype.com/outlookindia/2025-01-22/0najl2rh/4.png?w=596&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
     },
     {
         id: 2,
         title: "Stand-Up Night with Zakir Khan",
         type: "Comedy",
         price: 800,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiueyOPekPnc75yrnps1tMPKhtOpte0AZovw&s"
+        image: "https://sosimg.sgp1.cdn.digitaloceanspaces.com/artist-gallery/346912_1701946261.webp"
     }
 ]
 
