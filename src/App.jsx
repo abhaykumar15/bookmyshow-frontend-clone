@@ -6,6 +6,7 @@ import Movies from "./pages/Movies"
 import Booking from "./pages/Booking"
 import Payment from "./pages/Payment"
 import Account from "./pages/Account"
+import EventBooking from "./pages/EventBooking"
 import ProtectedRoute from "./components/ProtectedRoute"
 
 
@@ -26,6 +27,11 @@ function App() {
         <Route path="/account" element={ <ProtectedRoute>
       <Account />
     </ProtectedRoute>} />
+        <Route path="/event/:id" element={
+          <ProtectedRoute>
+            <EventBooking />
+          </ProtectedRoute>
+        } />
       </Routes>
     </div>
   )
