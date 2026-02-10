@@ -8,6 +8,8 @@ import Payment from "./pages/Payment"
 import Account from "./pages/Account"
 import EventBooking from "./pages/EventBooking"
 import ProtectedRoute from "./components/ProtectedRoute"
+import Events from "./pages/Events"
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/movies" element={<Movies />} />
+        <Route path="/events" element={<Events />} />
         <Route path="/booking/:id" element={<ProtectedRoute>
       <Booking />
     </ProtectedRoute>} />
