@@ -6,6 +6,8 @@ import Movies from "./pages/Movies"
 import Booking from "./pages/Booking"
 import Payment from "./pages/Payment"
 import Account from "./pages/Account"
+import ProtectedRoute from "./components/ProtectedRoute"
+
 
 function App() {
   return (
@@ -15,9 +17,15 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/movies" element={<Movies />} />
-        <Route path="/booking/:id" element={<Booking />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/account" element={<Account />} />
+        <Route path="/booking/:id" element={<ProtectedRoute>
+      <Booking />
+    </ProtectedRoute>} />
+        <Route path="/payment" element={ <ProtectedRoute>
+      <Payment />
+    </ProtectedRoute>} />
+        <Route path="/account" element={ <ProtectedRoute>
+      <Account />
+    </ProtectedRoute>} />
       </Routes>
     </div>
   )
