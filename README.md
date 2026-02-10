@@ -1,6 +1,8 @@
-# 🎬 BookMyShow Frontend Clone
+# 🎬 BookMyEve 
 
-A modern BookMyShow Frontend Clone built using:
+A modern BookMyEve for Events and movie ticket booking pltform:
+
+Front-end Teach stack
 
 - ⚛️ React (Vite)
 - 🎨 Tailwind CSS
