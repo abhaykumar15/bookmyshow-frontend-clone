@@ -16,36 +16,41 @@ const Navbar = () => {
       </Link>
 
       <div className="space-x-6">
-        <Link to="/" className="hover:text-red-600">
-          Home
-        </Link>
+  <Link to="/" className="hover:text-red-600">
+    Home
+  </Link>
 
-        <Link to="/movies" className="hover:text-red-600">
-          Movies
-        </Link>
+  <Link to="/movies" className="hover:text-red-600">
+    Movies
+  </Link>
 
-        {user ? (
-          <>
-            <Link to="/account" className="hover:text-red-600">
-              Account
-            </Link>
+  <Link to="/#events" className="hover:text-red-600">
+    Events
+  </Link>
 
-            <button
-              onClick={logout}
-              className="bg-red-600 text-white px-4 py-1 rounded"
-            >
-              Logout
-            </button>
-          </>
-        ) : (
-          <Link
-            to="/login"
-            className="bg-red-600 text-white px-4 py-1 rounded"
-          >
-            Sign In
-          </Link>
-        )}
-      </div>
+  {user ? (
+    <>
+      <Link to="/account" className="hover:text-red-600">
+        Account
+      </Link>
+
+      <button
+        onClick={logout}
+        className="bg-red-600 text-white px-4 py-1 rounded"
+      >
+        Logout
+      </button>
+    </>
+  ) : (
+    <Link
+      to="/login"
+      className="bg-red-600 text-white px-4 py-1 rounded"
+    >
+      Sign In
+    </Link>
+  )}
+</div>
+
 
     </div>
   )
