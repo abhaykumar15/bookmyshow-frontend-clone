@@ -9,8 +9,8 @@ const Booking = () => {
 
   if (!movie) {
     return (
-      <div className="p-8">
-        <h2 className="text-2xl font-bold">Movie not found</h2>
+      <div className="p-8 text-center text-2xl font-semibold text-gray-600">
+        Movie not found
       </div>
     )
   }
@@ -32,8 +32,8 @@ const Booking = () => {
   }
 
   return (
-    <div className="p-8">
-      <h2 className="text-3xl font-bold mb-4">{movie.title}</h2>
+    <div className="p-8 max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold mb-6 text-indigo-600">{movie.title}</h2>
       <SeatSelector price={movie.price} onSelect={handleSeats} />
     </div>
   )

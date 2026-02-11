@@ -5,7 +5,9 @@ const Landing = () => {
   return (
     <>
       <LandingHero />
-      <EventsSection />
+      <div className="p-6 md:p-12">
+        <EventsSection />
+      </div>
     </>
   )
 }
