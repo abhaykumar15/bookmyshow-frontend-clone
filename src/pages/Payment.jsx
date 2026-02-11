@@ -7,24 +7,20 @@ const Payment = () => {
 
   if (!booking || !booking.seats) {
     return (
-      <div className="p-8">
-        <h2>No booking found.</h2>
+      <div className="p-8 text-center text-gray-600 text-xl">
+        No booking found.
       </div>
     )
   }
 
   const confirm = () => {
-    const existingBookings =
-      JSON.parse(localStorage.getItem("history")) || []
-
+    const existingBookings = JSON.parse(localStorage.getItem("history")) || []
     const updatedBookings = [
       ...existingBookings,
       { ...booking, date: new Date().toLocaleString() }
     ]
-
     localStorage.setItem("history", JSON.stringify(updatedBookings))
     localStorage.removeItem("booking")
-
     navigate("/account")
   }
 
